@@ -3,7 +3,7 @@
     <div class="left-bar" :style="{ left: isLeftbar ? 0 : '-249px' }">
       <div class="title">
         <img class="icon-logo" src="/favicon.ico" />
-        <span>极客猿梦导航</span>
+        <span>中科金联导航</span>
       </div>
       <el-row>
         <el-col :span="24">

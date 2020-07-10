@@ -3,7 +3,7 @@
     <el-aside width="200px">
       <div class="title">
         <img class="icon-logo" src="/favicon.ico" />
-        <span>猿梦极客导航后台</span>
+        <span>中科金联导航后台</span>
       </div>
       <el-row>
         <el-col :span="24">
