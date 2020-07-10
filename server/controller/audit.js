@@ -7,7 +7,7 @@ const audit = {
   add(req, res) {
     const { url, name } = req.body
     req.body.status = 0
-    req.body.logo = `https://www.google.com/s2/favicons?domain=${url}`
+    req.body.logo = `https://www.qxwlmz.cn/ico/get.php?url=${url}`
     req.body.href = url
 
     // 手动输入

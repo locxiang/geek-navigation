@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  geek-navigation:
+    image: newborn/geek-navigation
+    ports:
+      - 8080:8080
+    depends_on:
+      - mongodb
+  mongodb:
+    image: mongo:4.2
+    command: "mongod --profile=1 --slowms=1"

@@ -7,6 +7,5 @@ push_docker:
 	docker tag zkjl/geek-navigation newborn/geek-navigation
 	docker push newborn/geek-navigation
 
-
 help:
 	@echo "make build_docker - 编译docker"
