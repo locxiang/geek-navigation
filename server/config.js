@@ -1,3 +1,3 @@
 module.exports = {
-  secretKey: 'xiaobing_19960412_jwttoken'
+  secretKey: '7JM12ZD6rkbg_4rLY!aM1cafD'
 }
